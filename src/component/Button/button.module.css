@@ -1,0 +1,34 @@
+.btn{
+    background-color: red;
+    background-color: transparent;
+    border-color: transparent;
+    outline: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+.btn[data-variant = "primary"]{
+    background: linear-gradient(to right,#127FFF, #0067f0);
+    color: var(--color-five);
+    
+}
+.btn[data-variant = "secondary"]{
+    color: var(--color-six);
+    background-color: var(--color-five);
+
+}
+.btn[data-size = "medium"]{
+    padding: 7px 0px;
+    
+}
+.btn[data-size = "large"]{
+    padding: 10.5px 16px;
+  
+
+}
+.btn[data-fullWidth = "true"]{
+    width: 100%;
+    border-radius: 5px;
+}

@@ -1,0 +1,43 @@
+.formWrapper{
+    height: 420px;
+    border-radius: 6px;
+    background: linear-gradient(to right, rgba(44,124,241,1), rgba(0,209,255,0.5)), url(https://media.istockphoto.com/id/1354045696/photo/white-background-abstract.jpg?s=1024x1024&w=is&k=20&c=PvT8dkpmEdlgpJzxUr2Jr_9HakXRJnzh7-_sI8RRuwA=);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 30px 31px 44px 40px;
+    color: var(--color-five);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+.heading{
+    font-size: 32px;
+    width: 440px;
+    font-weight: 600;
+}
+.paragraph{
+    font-size: 16px;
+    width: 390px;
+    line-height: 20px;
+
+}
+.formContent{
+    background-color: var(--color-five);
+    width: 491px;
+    overflow: hidden;
+    border-radius: 6px;
+
+}
+.form{
+    padding: 25px 20px 20px 20px;
+}
+.btnWrapper{
+    width: 128px;
+    margin-top: 28px;
+
+}
+.form > * + *{
+    margin-top: 20px;
+}

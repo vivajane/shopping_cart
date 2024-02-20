@@ -1,0 +1,18 @@
+.content{
+    background-color: var(--color-seven);
+    color: black;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    padding: 16px 24px 32px 16px;
+    border-radius: 5px;
+}
+.content[data-variant= "primary"]{
+    background-color: var(--color-three);
+}
+.content[data-variant= "secondary"]{
+    background-color: var(--color-two);
+}
+.content[data-size= "small"]{
+    padding-bottom: 12px;
+    padding-top: 14px;
+}

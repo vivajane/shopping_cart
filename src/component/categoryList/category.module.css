@@ -1,0 +1,13 @@
+.categoryItem{
+    font-family: "inter";
+    padding: 10px;
+    color: var(--color-six);
+    display: flex;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6px;
+}
+.categoryItem:hover{
+    cursor: pointer;
+    background-color: var(--color-seven) ;
+}

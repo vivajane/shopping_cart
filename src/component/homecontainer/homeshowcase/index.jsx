@@ -14,6 +14,7 @@ const HomeShowCase = function(){
             const data = await FetchCategories();
             setcategories(data)
         }
+        
         getCategory()
     }, []);
 

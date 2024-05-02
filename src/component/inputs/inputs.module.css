@@ -7,3 +7,11 @@
 input::placeholder{
     color: var(--color-six);
 }
+
+@media screen and (max-width: 780px){
+    .inputWrapper, textarea{
+       padding : 8px;
+       width: 95%;
+    }
+    
+}

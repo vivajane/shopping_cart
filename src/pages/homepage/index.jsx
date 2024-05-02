@@ -5,6 +5,7 @@ import HomeShowCase from "../../component/homecontainer/homeshowcase";
 import styles from "./homepage.module.css"
 
 
+
 const Home = () => {
     // return <>
     // <Normalcard variant = "primary">
@@ -19,6 +20,7 @@ const Home = () => {
     return <div className="container">
         <HomeShowCase></HomeShowCase>
         <FormComponent className={styles.marginTop}></FormComponent>
+    
     </div>
 }
 

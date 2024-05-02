@@ -16,3 +16,14 @@
     padding-bottom: 12px;
     padding-top: 14px;
 }
+
+@media screen and (max-width:780px) {
+    .content{
+        width: 100%;
+        font-family: 'Inter', sans-serif;
+        padding: 6px 14px 13px 8px;
+        border-radius: 5px;
+
+    }
+    
+}

@@ -11,3 +11,12 @@
     cursor: pointer;
     background-color: var(--color-seven) ;
 }
+
+@media screen and (max-width:780px){
+    .categoryItem{
+        font-size: 8px;
+        font-weight: 300;
+  
+    }
+    
+}

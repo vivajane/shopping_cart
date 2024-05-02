@@ -8,14 +8,23 @@
     padding: 30px 31px 44px 40px;
     color: var(--color-five);
     display: flex;
+    width: 100%;
     justify-content: space-between;
     align-items: flex-start;
+    font-family: "inter";
+   
     
+    
+}
+.parah{
+
+  
 }
 .heading{
     font-size: 32px;
     width: 440px;
-    font-weight: 600;
+    font-weight: 400;
+    padding-bottom: 15px;
 }
 .paragraph{
     font-size: 16px;
@@ -25,7 +34,7 @@
 }
 .formContent{
     background-color: var(--color-five);
-    width: 491px;
+    width: 40%;
     overflow: hidden;
     border-radius: 6px;
 
@@ -41,3 +50,45 @@
 .form > * + *{
     margin-top: 20px;
 }
+textarea{
+    color : black;
+}
+@media screen and (max-width:780px){
+    .formWrapper{
+        width: 100%;
+        justify-content: space-around;
+        display: grid;
+        grid-template-columns: 2fr, 1fr;
+        margin: auto;
+        /* padding: 30px 10px 44px 10px; */
+        font-size: 10px;
+    }
+    .formContent{
+        width: 80%;
+        /* background-color: aqua; */
+
+    }
+    .heading, .paragraph{
+        font-size: 15px;
+        width: 50%;
+    }
+
+    .form{
+        padding: 15px 10px 15px 10px;
+        /* width: 10%; */
+    }
+    .btnWrapper{
+        width: 128px;
+        margin-top: 28px;
+    
+    }
+    .form > * + *{
+        margin-top: 10px;
+    }
+    .formWrapper{
+        height: 400px;
+    }
+    
+}
+
+
